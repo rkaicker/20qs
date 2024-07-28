@@ -1,0 +1,55 @@
+-- food, drinks, cooking
+  |-- agriculture, industry
+  |  |-- health, safety
+  |  |  |-- natural resource, material
+  |  |  |  |-- *
+  |  |  |   -- *
+  |  |   -- living
+  |  |     |-- *
+  |  |      -- cleaning, hygiene
+  |  |        |-- *
+  |  |         -- man-made
+  |  |           |-- *
+  |  |            -- *
+  |   -- handheld
+  |     |-- cleaning, hygiene
+  |     |  |-- *
+  |     |   -- *
+  |      -- *
+   -- electronics, technology
+     |-- health, safety
+     |  |-- *
+     |   -- science, education
+     |     |-- *
+     |      -- arts, sports, entertainment
+     |        |-- *
+     |         -- handheld
+     |           |-- *
+     |            -- *
+      -- arts, sports, entertainment
+        |-- clothing, beauty, accessories
+        |  |-- *
+        |   -- handheld
+        |     |-- *
+        |      -- *
+         -- clothing, beauty, accessories
+           |-- cleaning, hygiene
+           |  |-- *
+           |   -- *
+            -- man-made
+              |-- indoors
+              |  |-- furniture, architecture
+              |  |  |-- *
+              |  |   -- agriculture, industry
+              |  |     |-- *
+              |  |      -- cleaning, hygiene
+              |  |        |-- *
+              |  |         -- health, safety
+              |  |           |-- *
+              |  |            -- *
+              |   -- *
+               -- handheld
+                 |-- indoors
+                 |  |-- *
+                 |   -- *
+                  -- *
