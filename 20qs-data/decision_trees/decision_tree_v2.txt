@@ -1,0 +1,53 @@
+-- food, beverage, cooking
+  |-- food
+  |  |-- agriculture
+  |  |  |-- *
+  |  |   -- prepared food
+  |  |     |-- *
+  |  |      -- *
+  |   -- agriculture
+  |     |-- safety
+  |     |  |-- *
+  |     |   -- *
+  |      -- handheld
+  |        |-- beverage
+  |        |  |-- *
+  |        |   -- *
+  |         -- *
+   -- industry, manufacturing
+     |-- safety
+     |  |-- transportation, vehicles
+     |  |  |-- *
+     |  |   -- architecture, construction
+     |  |        |-- *
+     |  |         -- *
+     |   -- electronics
+     |     |-- *
+     |      -- natural material, resource
+     |        |-- *
+     |         -- *
+      -- sports, entertainment
+        |-- handheld
+        |  |-- electronics
+        |  |  |-- *
+        |  |   -- arts, media
+        |  |     |-- *
+        |  |      -- *
+        |   -- *
+         -- clothing, accessories, beauty
+           |-- *
+            -- animal
+              |-- *
+               -- handheld
+                 |-- electronics
+                 |  |-- *
+                 |   -- safety
+                 |     |-- *
+                 |      -- *
+                  -- living
+                    |-- *
+                     -- furniture
+                       |-- *
+                        -- arts, media
+                          |-- *
+                           -- *
