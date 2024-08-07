@@ -1,0 +1,7 @@
+--2024-07-29 11:33:07--  http://speedtest.wdc01.softlayer.com/downloads/test10.zip
+Resolving speedtest.wdc01.softlayer.com (speedtest.wdc01.softlayer.com)... 169.54.48.218
+Connecting to speedtest.wdc01.softlayer.com (speedtest.wdc01.softlayer.com)|169.54.48.218|:80... failed: Operation timed out.
+Retrying.
+
+--2024-07-29 11:34:23--  (try: 2)  http://speedtest.wdc01.softlayer.com/downloads/test10.zip
+Connecting to speedtest.wdc01.softlayer.com (speedtest.wdc01.softlayer.com)|169.54.48.218|:80... failed: Network is unreachable.
