@@ -1,0 +1,255 @@
+-- Is it related to food, beverages or cooking?
+  |-- Is it something that can be consumed on its own?
+  |  |-- Is it commonly eaten in solid form rather than liquid form?
+  |  |  |-- Is it something that is usually considered a snack or treat?
+  |  |  |  |-- Is it a processed food product?
+  |  |  |  |  |-- Is it a baked good?
+  |  |  |  |  |  |-- Is it primarily made with flour?
+  |  |  |  |  |  |  |-- *
+  |  |  |  |  |  |   -- *
+  |  |  |  |  |   -- Is it usually packaged in single-serving portions?
+  |  |  |  |  |     |-- *
+  |  |  |  |  |      -- *
+  |  |  |  |   -- Is it a type of fruit?
+  |  |  |  |     |-- Is it a fruit that typically has seeds or pits?
+  |  |  |  |     |  |-- *
+  |  |  |  |     |   -- *
+  |  |  |  |      -- Is it primarily sweet in taste?
+  |  |  |  |        |-- *
+  |  |  |  |         -- *
+  |  |  |   -- Is it primarily derived from plants?
+  |  |  |     |-- Is it commonly used as an ingredient in cooked dishes?
+  |  |  |     |  |-- Is it typically a vegetable?
+  |  |  |     |  |  |-- *
+  |  |  |     |  |   -- *
+  |  |  |     |   -- Is it something that you would typically find in the produce section of a grocery store?
+  |  |  |     |     |-- *
+  |  |  |     |      -- *
+  |  |  |      -- Is it commonly served as a main course or part of a main course?
+  |  |  |        |-- Is it primarily sourced from an animal?
+  |  |  |        |  |-- *
+  |  |  |        |   -- *
+  |  |  |         -- Is it primarily derived from animals?
+  |  |  |           |-- *
+  |  |  |            -- *
+  |  |   -- Is it primarily consumed cold?
+  |  |     |-- Is it a type of beverage?
+  |  |     |  |-- Is it sweetened?
+  |  |     |  |  |-- Is it carbonated?
+  |  |     |  |  |  |-- *
+  |  |     |  |  |   -- *
+  |  |     |  |   -- Is it derived from plants?
+  |  |     |  |     |-- *
+  |  |     |  |      -- *
+  |  |     |   -- Is it a dessert?
+  |  |     |     |-- Is it typically dairy-based?
+  |  |     |     |  |-- *
+  |  |     |     |   -- *
+  |  |     |      -- Is it health-related or marketed as a health product?
+  |  |     |        |-- *
+  |  |     |         -- *
+  |  |      -- Is it commonly associated with breakfast?
+  |  |        |-- Is it typically sweet?
+  |  |        |  |-- Is it something that children commonly eat?
+  |  |        |  |  |-- *
+  |  |        |  |   -- *
+  |  |        |   -- Is it typically considered a beverage?
+  |  |        |     |-- *
+  |  |        |      -- *
+  |  |         -- Is it typically consumed as part of a meal?
+  |  |           |-- Is it typically consumed during dinner?
+  |  |           |  |-- *
+  |  |           |   -- *
+  |  |            -- Is it commonly sweet in taste?
+  |  |              |-- *
+  |  |               -- *
+  |   -- Is it used in the preparation of meals?
+  |     |-- Is it typically used in baking?
+  |     |  |-- Is it normally added in small quantities rather than large quantities?
+  |     |  |  |-- Is it derived from plants?
+  |     |  |  |  |-- Is it commonly used as a flavoring or seasoning?
+  |     |  |  |  |  |-- *
+  |     |  |  |  |   -- *
+  |     |  |  |   -- Is it a type of leavening agent?
+  |     |  |  |     |-- *
+  |     |  |  |      -- *
+  |     |  |   -- Is it commonly found in a pantry?
+  |     |  |     |-- Is it a type of flour?
+  |     |  |     |  |-- *
+  |     |  |     |   -- *
+  |     |  |      -- Is it commonly refrigerated?
+  |     |  |        |-- *
+  |     |  |         -- *
+  |     |   -- Is it commonly used in savory dishes?
+  |     |     |-- Is it a liquid?
+  |     |     |  |-- Is it a commonly used condiment?
+  |     |     |  |  |-- *
+  |     |     |  |   -- *
+  |     |     |   -- Is it a spice or seasoning?
+  |     |     |     |-- *
+  |     |     |      -- *
+  |     |      -- Is it typically used in desserts other than baked goods?
+  |     |        |-- Is it a type of gel or thickening agent?
+  |     |        |  |-- *
+  |     |        |   -- *
+  |     |         -- Is it added to beverages for flavoring?
+  |     |           |-- *
+  |     |            -- *
+  |      -- Is it a type of kitchen tool or gadget?
+  |        |-- Is it manually operated rather than electric?
+  |        |  |-- Does it have multiple parts that can be assembled or disassembled?
+  |        |  |  |-- Is it typically made of metal?
+  |        |  |  |  |-- *
+  |        |  |  |   -- *
+  |        |  |   -- Is it something that could typically fit in a drawer?
+  |        |  |     |-- *
+  |        |  |      -- *
+  |        |   -- Is it designed to be placed on a countertop?
+  |        |     |-- Is it used for a process that involves heating the contents?
+  |        |     |  |-- *
+  |        |     |   -- *
+  |        |      -- Is it primarily used for cleaning purposes?
+  |        |        |-- *
+  |        |         -- *
+  |         -- Is it associated with storing food or beverages?
+  |           |-- Is it something that can be found in a refrigerator?
+  |           |  |-- Is it commonly used to store liquids?
+  |           |  |  |-- *
+  |           |  |   -- *
+  |           |   -- Is it commonly used in households?
+  |           |     |-- *
+  |           |      -- *
+  |            -- Is it often found in a dining area?
+  |              |-- Is it usually found on a dining table?
+  |              |  |-- *
+  |              |   -- *
+  |               -- Is it typically found in a kitchen but not used directly for cooking?
+  |                 |-- *
+  |                  -- *
+   -- Is it commonly found indoors?
+     |-- Is it smaller than a microwave?
+     |  |-- Is it considered a tool or utensil?
+     |  |  |-- Is it something you might find in a bathroom?
+     |  |  |  |-- Is it primarily used for personal grooming or hygiene?
+     |  |  |  |  |-- Is it typically made of plastic?
+     |  |  |  |  |  |-- *
+     |  |  |  |  |   -- *
+     |  |  |  |   -- Is it made mostly of plastic?
+     |  |  |  |     |-- *
+     |  |  |  |      -- *
+     |  |  |   -- Is it specifically designed for a single task or purpose?
+     |  |  |     |-- Is it used in an office or workspace?
+     |  |  |     |  |-- *
+     |  |  |     |   -- *
+     |  |  |      -- Is it typically made of plastic or metal?
+     |  |  |        |-- *
+     |  |  |         -- *
+     |  |   -- Is it used for entertainment purposes?
+     |  |     |-- Is it electronic or battery-operated?
+     |  |     |  |-- Is it typically handheld?
+     |  |     |  |  |-- *
+     |  |     |  |   -- *
+     |  |     |   -- Can it be found in a common living room?
+     |  |     |     |-- *
+     |  |     |      -- *
+     |  |      -- Is it typically found in an office environment?
+     |  |        |-- Is it stationary and not meant to be moved frequently?
+     |  |        |  |-- *
+     |  |        |   -- *
+     |  |         -- Is it often found in a bedroom?
+     |  |           |-- *
+     |  |            -- *
+     |   -- Is it typically found in a living room?
+     |     |-- Is it used for entertainment purposes?
+     |     |  |-- Is it generally stationary rather than portable?
+     |     |  |  |-- Is it commonly made of wood?
+     |     |  |  |  |-- *
+     |     |  |  |   -- *
+     |     |  |   -- Is it used primarily for audio purposes?
+     |     |  |     |-- *
+     |     |  |      -- *
+     |     |   -- Is it associated with any form of health or comfort?
+     |     |     |-- Is it something typically used while sitting down?
+     |     |     |  |-- *
+     |     |     |   -- *
+     |     |      -- Is it an item of furniture?
+     |     |        |-- *
+     |     |         -- *
+     |      -- Does it have a mechanical function or purpose?
+     |        |-- Is it usually stationary and not meant to be moved around frequently?
+     |        |  |-- Is it commonly found in an office setting?
+     |        |  |  |-- *
+     |        |  |   -- *
+     |        |   -- Is it powered by electricity?
+     |        |     |-- *
+     |        |      -- *
+     |         -- Does it have a decorative purpose?
+     |           |-- Is it primarily made of fabric or textile?
+     |           |  |-- *
+     |           |   -- *
+     |            -- Is it typically found in an office setting?
+     |              |-- *
+     |               -- *
+      -- Is it a man-made object?
+        |-- Does it have moving parts?
+        |  |-- Is it larger than a person?
+        |  |  |-- Is it used for transportation?
+        |  |  |  |-- Does it primarily travel on roads?
+        |  |  |  |  |-- *
+        |  |  |  |   -- *
+        |  |  |   -- Is it typically operated by a single person?
+        |  |  |     |-- *
+        |  |  |      -- *
+        |  |   -- Is it used for transportation?
+        |  |     |-- Is it powered by electricity?
+        |  |     |  |-- *
+        |  |     |   -- *
+        |  |      -- Is it associated with a specific hobby or sport?
+        |  |        |-- *
+        |  |         -- *
+        |   -- Is it larger than a microwave oven?
+        |     |-- Does it require installation for proper use?
+        |     |  |-- Is it made primarily of metal?
+        |     |  |  |-- *
+        |     |  |   -- *
+        |     |   -- Is it related to transportation or travel?
+        |     |     |-- *
+        |     |      -- *
+        |      -- Is it typically used for outdoor activities?
+        |        |-- Is it commonly used in sports?
+        |        |  |-- *
+        |        |   -- *
+        |         -- Is it something that can fit in a pocket?
+        |           |-- *
+        |            -- *
+         -- Is it a living organism?
+           |-- Is it a type of animal?
+           |  |-- Is it commonly found in aquatic environments?
+           |  |  |-- Does it primarily live in saltwater?
+           |  |  |  |-- *
+           |  |  |   -- *
+           |  |   -- Does it have four legs?
+           |  |     |-- *
+           |  |      -- *
+           |   -- Does it grow in a forest?
+           |     |-- Does it produce flowers?
+           |     |  |-- *
+           |     |   -- *
+           |      -- Is it commonly found in grasslands or fields?
+           |        |-- *
+           |         -- *
+            -- Is it larger than a car?
+              |-- Does it produce energy or have an impact on the climate?
+              |  |-- Is it associated with water or bodies of water?
+              |  |  |-- *
+              |  |   -- *
+              |   -- Does it occur naturally in the environment?
+              |     |-- *
+              |      -- *
+               -- Is it an inanimate object typically found in nature?
+                 |-- Is it something that can float on water?
+                 |  |-- *
+                 |   -- *
+                  -- Is it smaller than a loaf of bread?
+                    |-- *
+                     -- *
