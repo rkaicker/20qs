@@ -1,0 +1,63 @@
+-- Is it related to food, beverages or cooking?
+  |-- Is it edible?
+  |  |-- Is it a processed food?
+  |  |  |-- Does it require refrigeration?
+  |  |  |  |-- Does it come in a solid form?
+  |  |  |  |  |-- Is it typically consumed by itself rather than as an ingredient in other dishes?
+  |  |  |  |   -- Is it typically used as a condiment or topping?
+  |  |  |   -- Is it a type of baked good?
+  |  |  |     |-- Is it typically found in the bread aisle?
+  |  |  |      -- Is it typically consumed as a snack?
+  |  |   -- Is it a type of fruit or vegetable?
+  |  |     |-- Is it a fruit?
+  |  |     |  |-- Does it have a single large seed or pit?
+  |  |     |   -- Is it typically cooked before eating?
+  |  |      -- Is it of animal origin?
+  |  |        |-- Is it commonly consumed raw?
+  |  |         -- Is it typically consumed raw?
+  |   -- Can it be classified as a utensil or tool?
+  |     |-- Is it typically made of metal?
+  |     |  |-- Is it primarily used for handling hot items?
+  |     |  |  |-- Is it specifically used for baking processes?
+  |     |  |   -- Is it used for cutting or slicing?
+  |     |   -- Is it used for measuring ingredients?
+  |     |     |-- Is it made mostly of plastic?
+  |     |      -- Is it generally used in baking?
+  |      -- Is it something that is used for storage?
+  |        |-- Does it have a typical usage for containing liquid?
+  |        |  |-- Is it primarily made of glass?
+  |        |   -- Is it made of plastic?
+  |         -- Is it primarily used in preparation activities?
+  |           |-- Is it an appliance or machinery?
+  |            -- Is it associated with serving food or beverages?
+   -- Is it used for recreational purposes?
+     |-- Is it commonly used outdoors?
+     |  |-- Is it generally used during daylight hours?
+     |  |  |-- Is it used as part of an organized activity?
+     |  |  |  |-- Is it often associated with sports or physical exercise?
+     |  |  |   -- Is it used in water?
+     |  |   -- Is it primarily used in or around water?
+     |  |     |-- Is it primarily made of plastic?
+     |  |      -- Is it commonly found in residential areas?
+     |   -- Is it typically found in a household's common living areas?
+     |     |-- Is it used for entertainment?
+     |     |  |-- Is it electronic?
+     |     |   -- Is it used for organization or cleaning?
+     |      -- Is it primarily used for entertainment?
+     |        |-- Is it a type of game or toy?
+     |         -- Is it used for health or fitness purposes?
+      -- Is it a household item?
+        |-- Is it electronic or battery-operated?
+        |  |-- Is it smaller than a microwave oven?
+        |  |  |-- Is it commonly found in a living room?
+        |  |   -- Is it commonly found in the living room?
+        |   -- Is it a tool or item used for organizing or storing things?
+        |     |-- Is it designed to hang or be mounted on walls?
+        |      -- Is it primarily made of plastic?
+         -- Is it used for professional or industrial purposes?
+           |-- Is it commonly used in construction?
+           |  |-- Is it a tool or a piece of machinery?
+           |   -- Is it related to manufacturing or production?
+            -- Is it a living thing?
+              |-- Is it an animal?
+               -- Is it typically found outdoors?
