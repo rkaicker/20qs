@@ -1,0 +1,63 @@
+-- Is it related to food, beverages or cooking?
+  |-- Is it something you can eat?
+  |  |-- Is it sweet?
+  |  |  |-- Is it typically served as a dessert?
+  |  |  |  |-- Does it contain dairy?
+  |  |  |  |  |-- Is it often made with eggs?
+  |  |  |  |   -- Does it require refrigeration?
+  |  |  |   -- Does it need to be refrigerated?
+  |  |  |     |-- Is it a solid rather than a liquid?
+  |  |  |      -- Is it a processed food item?
+  |  |   -- Is it usually served hot?
+  |  |     |-- Is it primarily consumed during a specific meal of the day, such as breakfast or dinner?
+  |  |     |  |-- Is it commonly associated with dinner rather than breakfast?
+  |  |     |   -- Is it typically served as a side dish?
+  |  |      -- Does it need to be refrigerated?
+  |  |        |-- Is it processed or packaged?
+  |  |         -- Is it commonly found in a standard pantry?
+  |   -- Is it a tool or appliance used in the kitchen?
+  |     |-- Is it powered by electricity?
+  |     |  |-- Is it typically used for heating or cooking food?
+  |     |  |  |-- Does it have a rotating component?
+  |     |  |   -- Is it primarily used for mixing or processing ingredients?
+  |     |   -- Is it commonly made of metal?
+  |     |     |-- Is it used to measure ingredients?
+  |     |      -- Is it a container or storage item?
+  |      -- Is it associated with the presentation of food?
+  |        |-- Is it typically found on a dining table?
+  |        |  |-- Is it made of metal?
+  |        |   -- Is it involved in the packaging of food products?
+  |         -- Does it have to do with food preservation or storage?
+  |           |-- Is it something that can be found in a refrigerator?
+  |            -- Is it a component or ingredient used in food preparation?
+   -- Is it commonly found inside a home?
+     |-- Is it typically found in a living room or bedroom?
+     |  |-- Is it used for comfort or relaxation?
+     |  |  |-- Is it typically made of fabric or upholstery?
+     |  |  |  |-- Is it something you sit on?
+     |  |  |   -- Is it primarily used during the evening or night?
+     |  |   -- Is it primarily used for storage?
+     |  |     |-- Is it an item that is generally larger than a microwave?
+     |  |      -- Is it an electronic device?
+     |   -- Is it used for cleaning or maintenance?
+     |     |-- Is it electrically powered?
+     |     |  |-- Does it have a cord?
+     |     |   -- Is it made primarily of metal?
+     |      -- Is it used for storage or organization?
+     |        |-- Is it typically made of metal?
+     |         -- Is it related to entertainment or hobbies?
+      -- Is it typically larger than a car?
+        |-- Does it have a significant role in transportation?
+        |  |-- Is it powered by electricity?
+        |  |  |-- Is it capable of carrying passengers?
+        |  |   -- Does it have wheels?
+        |   -- Is it typically involved in construction or infrastructure?
+        |     |-- Is it often made of metal?
+        |      -- Does it occur naturally?
+         -- Is it an object that is usually stationary?
+           |-- Is it primarily made of metal?
+           |  |-- Does it have any moving parts?
+           |   -- Is it primarily made of wood?
+            -- Is it something that is commonly found outdoors?
+              |-- Is it a living organism?
+               -- Is it a type of tool or equipment?
