@@ -1,0 +1,255 @@
+-- Is it related to food, beverages or cooking?
+  |-- Is it an edible item?
+  |  |-- Is it primarily sweet?
+  |  |  |-- Is it typically consumed as a dessert?
+  |  |  |  |-- Can it be found in a liquid or semi-liquid form?
+  |  |  |  |  |-- Is it fruit-based?
+  |  |  |  |  |  |-- Does it come from a tropical region?
+  |  |  |  |  |  |  |-- *
+  |  |  |  |  |  |   -- *
+  |  |  |  |  |   -- Is it dairy-based?
+  |  |  |  |  |     |-- *
+  |  |  |  |  |      -- *
+  |  |  |  |   -- Is it typically baked?
+  |  |  |  |     |-- Is it commonly decorated with frosting or icing?
+  |  |  |  |     |  |-- *
+  |  |  |  |     |   -- *
+  |  |  |  |      -- Is it predominantly eaten cold or frozen?
+  |  |  |  |        |-- *
+  |  |  |  |         -- *
+  |  |  |   -- Is it a beverage?
+  |  |  |     |-- Does it contain caffeine?
+  |  |  |     |  |-- Does it commonly come in a can?
+  |  |  |     |  |  |-- *
+  |  |  |     |  |   -- *
+  |  |  |     |   -- Does it have fruit juice as a primary ingredient?
+  |  |  |     |     |-- *
+  |  |  |     |      -- *
+  |  |  |      -- Is it a plant or a part of a plant?
+  |  |  |        |-- Does it typically grow on a vine?
+  |  |  |        |  |-- *
+  |  |  |        |   -- *
+  |  |  |         -- Is it more commonly found in individual packaging?
+  |  |  |           |-- *
+  |  |  |            -- *
+  |  |   -- Is it a plant or plant-based product?
+  |  |     |-- Is it typically consumed whole or in a minimally processed form?
+  |  |     |  |-- Is it typically consumed raw?
+  |  |     |  |  |-- Is it primarily used as a garnish or herb?
+  |  |     |  |  |  |-- *
+  |  |     |  |  |   -- *
+  |  |     |  |   -- Is it a type of vegetable?
+  |  |     |  |     |-- *
+  |  |     |  |      -- *
+  |  |     |   -- Is it commonly used as an ingredient rather than consumed on its own?
+  |  |     |     |-- Is it commonly used in liquid form?
+  |  |     |     |  |-- *
+  |  |     |     |   -- *
+  |  |     |      -- Is it a beverage or associated with beverages?
+  |  |     |        |-- *
+  |  |     |         -- *
+  |  |      -- Is it commonly served hot?
+  |  |        |-- Does it contain meat?
+  |  |        |  |-- Is it usually served with bread or a bun?
+  |  |        |  |  |-- *
+  |  |        |  |   -- *
+  |  |        |   -- Is it a solid food item?
+  |  |        |     |-- *
+  |  |        |      -- *
+  |  |         -- Is it derived from or contains an animal product?
+  |  |           |-- Is it primarily used as an ingredient rather than consumed on its own?
+  |  |           |  |-- *
+  |  |           |   -- *
+  |  |            -- Is it a type of beverage?
+  |  |              |-- *
+  |  |               -- *
+  |   -- Is it typically found in a residential kitchen?
+  |     |-- Is it primarily made of metal?
+  |     |  |-- Is it associated with beverages?
+  |     |  |  |-- Can it be held in one hand?
+  |     |  |  |  |-- Is it typically used during the preparation of beverages?
+  |     |  |  |  |  |-- *
+  |     |  |  |  |   -- *
+  |     |  |  |   -- Does it have a built-in water reservoir?
+  |     |  |  |     |-- *
+  |     |  |  |      -- *
+  |     |  |   -- Is it used in baking or cooking in an oven?
+  |     |  |     |-- Is it flat and used to support or hold items for baking?
+  |     |  |     |  |-- *
+  |     |  |     |   -- *
+  |     |  |      -- Is it primarily a cutting tool?
+  |     |  |        |-- *
+  |     |  |         -- *
+  |     |   -- Is it used for serving food or beverages?
+  |     |     |-- Is it primarily used for drinking beverages?
+  |     |     |  |-- Does it have a handle?
+  |     |     |  |  |-- *
+  |     |     |  |   -- *
+  |     |     |   -- Does it typically come in a standard size or shape?
+  |     |     |     |-- *
+  |     |     |      -- *
+  |     |      -- Is it used primarily for food preparation?
+  |     |        |-- Is it commonly used in baking?
+  |     |        |  |-- *
+  |     |        |   -- *
+  |     |         -- Is it commonly made of plastic?
+  |     |           |-- *
+  |     |            -- *
+  |      -- Is it commonly associated with beverages?
+  |        |-- Is it typically used in the serving or consumption of beverages?
+  |        |  |-- Is it primarily associated with alcoholic beverages?
+  |        |  |  |-- Is it commonly found in bars or pubs?
+  |        |  |  |  |-- *
+  |        |  |  |   -- *
+  |        |  |   -- Is it an electrically powered device?
+  |        |  |     |-- *
+  |        |  |      -- *
+  |        |   -- Is it mainly used outdoors?
+  |        |     |-- Does it have a direct role in the production of beverages?
+  |        |     |  |-- *
+  |        |     |   -- *
+  |        |      -- Does it involve chemical compounds heavily in its function?
+  |        |        |-- *
+  |        |         -- *
+  |         -- Is it commonly found in agricultural or gardening settings?
+  |           |-- Does it have any relation to plants or trees?
+  |           |  |-- Is it an item used primarily for plant care or maintenance?
+  |           |  |  |-- *
+  |           |  |   -- *
+  |           |   -- Is it commonly found in manufacturing plants?
+  |           |     |-- *
+  |           |      -- *
+  |            -- Is it a machine or equipment?
+  |              |-- Is it used for a specific type of food preparation or cooking method?
+  |              |  |-- *
+  |              |   -- *
+  |               -- Is it often found in a natural environment?
+  |                 |-- *
+  |                  -- *
+   -- Is it used for home improvement or construction?
+     |-- Is it a tool?
+     |  |-- Does it have a handle or can it be held in your hand?
+     |  |  |-- Is it battery-operated or powered by electricity?
+     |  |  |  |-- Does it emit light?
+     |  |  |  |  |-- Is it primarily used for measuring distances or locating points?
+     |  |  |  |  |  |-- *
+     |  |  |  |  |   -- *
+     |  |  |  |   -- Is it primarily used to apply or remove material?
+     |  |  |  |     |-- *
+     |  |  |  |      -- *
+     |  |  |   -- Is it commonly used in gardening or outdoor activities?
+     |  |  |     |-- Is it made mostly of metal?
+     |  |  |     |  |-- *
+     |  |  |     |   -- *
+     |  |  |      -- Is it made primarily of metal and has no moving parts?
+     |  |  |        |-- *
+     |  |  |         -- *
+     |  |   -- Is it typically stationary when in use?
+     |  |     |-- Does it require power or electricity to operate?
+     |  |     |  |-- Does it measure or detect something?
+     |  |     |  |  |-- *
+     |  |     |  |   -- *
+     |  |     |   -- Can it support or elevate other objects?
+     |  |     |     |-- *
+     |  |     |      -- *
+     |  |      -- Is it powered by electricity or batteries?
+     |  |        |-- Is it primarily used for air movement or ventilation?
+     |  |        |  |-- *
+     |  |        |   -- *
+     |  |         -- Does it require precise measurement or alignment when in use?
+     |  |           |-- *
+     |  |            -- *
+     |   -- Is it an item that is usually found in a residential setting?
+     |     |-- Is it typically found on or around windows?
+     |     |  |-- Is it typically used to cover or obscure the window?
+     |     |  |  |-- Is it made primarily from fabric?
+     |     |  |  |  |-- *
+     |     |  |  |   -- *
+     |     |  |   -- Is it generally a liquid or semi-liquid substance?
+     |     |  |     |-- *
+     |     |  |      -- *
+     |     |   -- Is it an item that is usually found inside the house?
+     |     |     |-- Is it something that is fixed or attached to a wall?
+     |     |     |  |-- *
+     |     |     |   -- *
+     |     |      -- Is it typically part of the building structure itself?
+     |     |        |-- *
+     |     |         -- *
+     |      -- Is it a type of material?
+     |        |-- Is it a natural material?
+     |        |  |-- Can it be classified as a mineral?
+     |        |  |  |-- *
+     |        |  |   -- *
+     |        |   -- Is it commonly used in the automotive industry?
+     |        |     |-- *
+     |        |      -- *
+     |         -- Is it a stationary item?
+     |           |-- Is it used for safety purposes?
+     |           |  |-- *
+     |           |   -- *
+     |            -- Is it used for safety purposes?
+     |              |-- *
+     |               -- *
+      -- Is it commonly found in an office or school setting?
+        |-- Is it an electronic device?
+        |  |-- Is it a portable device?
+        |  |  |-- Does it have a display screen?
+        |  |  |  |-- Does it have the capability to access the internet?
+        |  |  |  |  |-- *
+        |  |  |  |   -- *
+        |  |  |   -- Does it produce sound?
+        |  |  |     |-- *
+        |  |  |      -- *
+        |  |   -- Is it related to safety or security?
+        |  |     |-- Does it emit a loud sound when activated?
+        |  |     |  |-- *
+        |  |     |   -- *
+        |  |      -- Is it typically mounted or installed in a fixed position?
+        |  |        |-- *
+        |  |         -- *
+        |   -- Is it something that can be worn?
+        |     |-- Is it typically made of fabric?
+        |     |  |-- Is it typically worn on the lower body?
+        |     |  |  |-- *
+        |     |  |   -- *
+        |     |   -- Is it worn on or related to the head?
+        |     |     |-- *
+        |     |      -- *
+        |      -- Is it primarily made of paper or cardboard?
+        |        |-- Is it used for writing or recording information?
+        |        |  |-- *
+        |        |   -- *
+        |         -- Is it typically found on a desk?
+        |           |-- *
+        |            -- *
+         -- Is it an object that can be found outdoors?
+           |-- Does it have a natural origin?
+           |  |-- Does it have a lifespan of more than one year?
+           |  |  |-- Is it something that can be found in a garden?
+           |  |  |  |-- *
+           |  |  |   -- *
+           |  |   -- Does it have a specific seasonal occurrence?
+           |  |     |-- *
+           |  |      -- *
+           |   -- Is it typically used for recreational activities?
+           |     |-- Is it used for competitive sports?
+           |     |  |-- *
+           |     |   -- *
+           |      -- Is it primarily associated with transportation or vehicles?
+           |        |-- *
+           |         -- *
+            -- Is it used for entertainment or leisure activities?
+              |-- Does it involve or require any kind of artistry or craft?
+              |  |-- Is it utilized in any form of visual media, like movies or graphic novels?
+              |  |  |-- *
+              |  |   -- *
+              |   -- Is it larger than a breadbox?
+              |     |-- *
+              |      -- *
+               -- Is it commonly found in or associated with a healthcare or medical setting?
+                 |-- Is it primarily used by or for patients?
+                 |  |-- *
+                 |   -- *
+                  -- Does it have mechanical or electronic components?
+                    |-- *
+                     -- *
