@@ -1,0 +1,525 @@
+-- Is it related to food, beverages or cooking?
+  |-- Is it an edible item?
+  |  |-- Is it a plant or derived from a plant?
+  |  |  |-- Is it commonly found in Western cuisine?
+  |  |  |  |-- Is it typically cooked before consumption?
+  |  |  |  |  |-- Is it typically green in color when fresh?
+  |  |  |  |  |  |-- Is it a type of leafy green?
+  |  |  |  |  |  |  |-- Does it have a strong or pungent flavor?
+  |  |  |  |  |  |  |  |-- Is it commonly used as an herb or garnish rather than as a primary ingredient?
+  |  |  |  |  |  |  |  |  |-- *
+  |  |  |  |  |  |  |  |   -- *
+  |  |  |  |  |  |  |   -- Is it considered a bitter green?
+  |  |  |  |  |  |  |     |-- *
+  |  |  |  |  |  |  |      -- *
+  |  |  |  |  |  |   -- Is it a vegetable?
+  |  |  |  |  |  |     |-- Is it a fruit vegetable?
+  |  |  |  |  |  |     |  |-- *
+  |  |  |  |  |  |     |   -- *
+  |  |  |  |  |  |      -- Is it typically used as a seasoning or garnish?
+  |  |  |  |  |  |        |-- *
+  |  |  |  |  |  |         -- *
+  |  |  |  |  |   -- Is it commonly consumed as a side dish?
+  |  |  |  |  |     |-- Does it typically have a starchy texture when cooked?
+  |  |  |  |  |     |  |-- Is it commonly used to make purees or soups?
+  |  |  |  |  |     |  |  |-- *
+  |  |  |  |  |     |  |   -- *
+  |  |  |  |  |     |   -- Does it have a flesh that is typically white or pale in color when cooked?
+  |  |  |  |  |     |     |-- *
+  |  |  |  |  |     |      -- *
+  |  |  |  |  |      -- Is it typically used whole rather than ground or processed?
+  |  |  |  |  |        |-- Is it typically a root vegetable?
+  |  |  |  |  |        |  |-- *
+  |  |  |  |  |        |   -- *
+  |  |  |  |  |         -- *
+  |  |  |  |   -- Does it have a notable or strong flavor?
+  |  |  |  |     |-- Is it commonly used as a spice or seasoning?
+  |  |  |  |     |  |-- Does it have a sweet flavor profile?
+  |  |  |  |     |  |  |-- *
+  |  |  |  |     |  |   -- *
+  |  |  |  |     |   -- Is it commonly consumed in its raw form?
+  |  |  |  |     |     |-- *
+  |  |  |  |     |      -- *
+  |  |  |  |      -- Is it typically consumed as a snack?
+  |  |  |  |        |-- Is it considered a fruit?
+  |  |  |  |        |  |-- *
+  |  |  |  |        |   -- *
+  |  |  |  |         -- Is it typically leafy or have leaves?
+  |  |  |  |           |-- *
+  |  |  |  |            -- *
+  |  |  |   -- Is it commonly used in Asian cuisine?
+  |  |  |     |-- Is it commonly used as an ingredient in soups or broths?
+  |  |  |     |  |-- Does it have a strong or distinctive smell when raw?
+  |  |  |     |  |  |-- Does it have a leafy appearance?
+  |  |  |     |  |  |  |-- *
+  |  |  |     |  |  |   -- *
+  |  |  |     |  |   -- Is it processed or transformed before consumption?
+  |  |  |     |  |     |-- *
+  |  |  |     |  |      -- *
+  |  |  |     |   -- Is it used as a spice or seasoning?
+  |  |  |     |     |-- Is it typically used in dried form?
+  |  |  |     |     |  |-- *
+  |  |  |     |     |   -- *
+  |  |  |     |      -- Is it typically consumed raw?
+  |  |  |     |        |-- *
+  |  |  |     |         -- *
+  |  |  |      -- Is it a type of vegetable?
+  |  |  |        |-- Is it typically consumed raw?
+  |  |  |        |  |-- Is it a leafy vegetable?
+  |  |  |        |  |  |-- *
+  |  |  |        |  |   -- *
+  |  |  |        |   -- Is it known for being a root vegetable?
+  |  |  |        |     |-- *
+  |  |  |        |      -- *
+  |  |  |         -- Is it commonly used in beverages?
+  |  |  |           |-- Is it typically used in tea?
+  |  |  |           |  |-- *
+  |  |  |           |   -- *
+  |  |  |            -- Is it used as a spice or seasoning?
+  |  |  |              |-- *
+  |  |  |               -- *
+  |  |   -- Is it commonly served as a main course or main component of a meal?
+  |  |     |-- Is it typically made with meat as a primary ingredient?
+  |  |     |  |-- Is it typically cooked using an oven or stovetop rather than a grill or deep fryer?
+  |  |     |  |  |-- Is it commonly prepared with more than one type of meat?
+  |  |     |  |  |  |-- Does it typically include a carbohydrate component such as pasta, rice, or potatoes?
+  |  |     |  |  |  |  |-- *
+  |  |     |  |  |  |   -- *
+  |  |     |  |  |   -- Is it typically associated with American cuisine?
+  |  |     |  |  |     |-- *
+  |  |     |  |  |      -- *
+  |  |     |  |   -- Is it typically served with a sauce or gravy?
+  |  |     |  |     |-- Is it commonly made with beef as a primary ingredient?
+  |  |     |  |     |  |-- *
+  |  |     |  |     |   -- *
+  |  |     |  |      -- Is it typically associated with American cuisine?
+  |  |     |  |        |-- *
+  |  |     |  |         -- *
+  |  |     |   -- Does it commonly contain cheese?
+  |  |     |     |-- Does it have a crispy or crunchy component?
+  |  |     |     |  |-- Is it commonly classified as a baked dish?
+  |  |     |     |  |  |-- *
+  |  |     |     |  |   -- *
+  |  |     |     |   -- Is it commonly seen as a dish from Italian cuisine?
+  |  |     |     |     |-- *
+  |  |     |     |      -- *
+  |  |     |      -- Is it primarily associated with Asian cuisine?
+  |  |     |        |-- Is it usually served in a bowl?
+  |  |     |        |  |-- *
+  |  |     |        |   -- *
+  |  |     |         -- Is it primarily served hot?
+  |  |     |           |-- *
+  |  |     |            -- *
+  |  |      -- Is it typically sweet?
+  |  |        |-- Does it contain any form of dairy or lactose?
+  |  |        |  |-- Is it typically served frozen or chilled?
+  |  |        |  |  |-- Does it usually involve more than one type of dairy product?
+  |  |        |  |  |  |-- *
+  |  |        |  |  |   -- *
+  |  |        |  |   -- Is it generally baked or cooked in an oven?
+  |  |        |  |     |-- *
+  |  |        |  |      -- *
+  |  |        |   -- Is it typically consumed in solid pieces rather than as a spread or liquid?
+  |  |        |     |-- Is it known for having a crispy or crunchy texture?
+  |  |        |     |  |-- *
+  |  |        |     |   -- *
+  |  |        |      -- Is it a type of candy or similar confection?
+  |  |        |        |-- *
+  |  |        |         -- *
+  |  |         -- Is it typically used as a condiment or seasoning?
+  |  |           |-- Is it typically found in liquid or paste form?
+  |  |           |  |-- Is it opaque in appearance?
+  |  |           |  |  |-- *
+  |  |           |  |   -- *
+  |  |           |   -- Is it primarily used in Asian cuisine?
+  |  |           |     |-- *
+  |  |           |      -- *
+  |  |            -- Is it typically found in a liquid or semi-liquid form?
+  |  |              |-- Is it used in beverages?
+  |  |              |  |-- *
+  |  |              |   -- *
+  |  |               -- Is it a protein source?
+  |  |                 |-- *
+  |  |                  -- *
+  |   -- Is it typically used in the preparation of food?
+  |     |-- Is it generally used for baking?
+  |     |  |-- Is it primarily made of metal?
+  |     |  |  |-- Does it have a handle or gripping point for use?
+  |     |  |  |  |-- Is it used in direct contact with dough?
+  |     |  |  |  |  |-- Is it a type of container or surface used for baking?
+  |     |  |  |  |  |  |-- *
+  |     |  |  |  |  |   -- *
+  |     |  |  |  |   -- Does it have a cutting edge?
+  |     |  |  |  |     |-- *
+  |     |  |  |  |      -- *
+  |     |  |  |   -- Is it commonly used in the preparation or baking of cakes?
+  |     |  |  |     |-- Is it typically used in the baking of breads?
+  |     |  |  |     |  |-- *
+  |     |  |  |     |   -- *
+  |     |  |  |      -- Is it used directly in the oven?
+  |     |  |  |        |-- *
+  |     |  |  |         -- *
+  |     |  |   -- Is it made from silicone?
+  |     |  |     |-- Is it typically flat in shape?
+  |     |  |     |  |-- Does it have a smooth surface without any detailing or grooves?
+  |     |  |     |  |  |-- *
+  |     |  |     |  |   -- *
+  |     |  |     |   -- Is it designed to be used with heat or in the oven?
+  |     |  |     |     |-- *
+  |     |  |     |      -- *
+  |     |  |      -- Is it an electronic device?
+  |     |  |        |-- Does it have a heating element?
+  |     |  |        |  |-- *
+  |     |  |        |   -- *
+  |     |  |         -- Is it primarily made of glass or ceramic?
+  |     |  |           |-- *
+  |     |  |            -- *
+  |     |   -- Is it a handheld tool?
+  |     |     |-- Is it commonly associated with liquid or fluid handling?
+  |     |     |  |-- Is it made of metal?
+  |     |     |  |  |-- Does it have a sharp edge or blades?
+  |     |     |  |  |  |-- *
+  |     |     |  |  |   -- *
+  |     |     |  |   -- Does it involve some form of stirring?
+  |     |     |  |     |-- *
+  |     |     |  |      -- *
+  |     |     |   -- Does it have any sharp edges or points?
+  |     |     |     |-- Is it commonly used in the preparation of vegetables or fruits?
+  |     |     |     |  |-- *
+  |     |     |     |   -- *
+  |     |     |      -- Does it have any moving parts?
+  |     |     |        |-- *
+  |     |     |         -- *
+  |     |      -- Is it commonly found in a drawer?
+  |     |        |-- Is it primarily made of metal?
+  |     |        |  |-- Is it a type of container?
+  |     |        |  |  |-- *
+  |     |        |  |   -- *
+  |     |        |   -- Does it have a significant plastic component?
+  |     |        |     |-- *
+  |     |        |      -- *
+  |     |         -- Is it made primarily of metal?
+  |     |           |-- Does it require an external heat source to function?
+  |     |           |  |-- *
+  |     |           |   -- *
+  |     |            -- Is it designed to hold or contain food items?
+  |     |              |-- *
+  |     |               -- *
+  |      -- Is it primarily found or used in the dining area?
+  |        |-- Is it typically used to serve food or drink?
+  |        |  |-- Is it intended for holding liquids?
+  |        |  |  |-- Is it commonly made of glass?
+  |        |  |  |  |-- Is it frequently used during meal service rather than for decoration?
+  |        |  |  |  |  |-- *
+  |        |  |  |  |   -- *
+  |        |  |  |   -- Is it typically found in a restaurant setting?
+  |        |  |  |     |-- *
+  |        |  |  |      -- *
+  |        |  |   -- Is it typically used to serve a specific type of food (e.g., dessert, bread)?
+  |        |  |     |-- Does it have a flat surface?
+  |        |  |     |  |-- *
+  |        |  |     |   -- *
+  |        |  |      -- Does it typically come into direct contact with food?
+  |        |  |        |-- *
+  |        |  |         -- *
+  |        |   -- Is it commonly found on the table surface?
+  |        |     |-- Does it typically have a utility function other than decoration?
+  |        |     |  |-- Is it used to contain or hold items?
+  |        |     |  |  |-- *
+  |        |     |  |   -- *
+  |        |     |   -- Is it typically used to protect the table surface?
+  |        |     |     |-- *
+  |        |     |      -- *
+  |        |      -- Is it primarily used for storage?
+  |        |        |-- Is it a type of container?
+  |        |        |  |-- *
+  |        |        |   -- *
+  |        |         -- Is it commonly used to maintain cleanliness or orderliness?
+  |        |           |-- *
+  |        |            -- *
+  |         -- Is it mainly used on a table or countertop?
+  |           |-- Is it primarily used for serving food or beverages?
+  |           |  |-- Is it commonly made of metal?
+  |           |  |  |-- Is it usually used for a specific type of food or beverage?
+  |           |  |  |  |-- *
+  |           |  |  |   -- *
+  |           |  |   -- Is it commonly made of ceramics or glass?
+  |           |  |     |-- *
+  |           |  |      -- *
+  |           |   -- Is it often found in a set or as a pair?
+  |           |     |-- Is it usually made of ceramic or glass?
+  |           |     |  |-- *
+  |           |     |   -- *
+  |           |      -- Does it typically occupy a permanent or semi-permanent spot on the table or countertop?
+  |           |        |-- *
+  |           |         -- *
+  |            -- Is it bigger than a breadbox?
+  |              |-- Is it an appliance?
+  |              |  |-- Does it have a heating element?
+  |              |  |  |-- *
+  |              |  |   -- *
+  |              |   -- Is it made mostly out of metal?
+  |              |     |-- *
+  |              |      -- *
+  |               -- Is it involved in the storage of food?
+  |                 |-- Is it made of plastic?
+  |                 |  |-- *
+  |                 |   -- *
+  |                  -- Is it made mostly of metal?
+  |                    |-- *
+  |                     -- *
+   -- Is it typically found inside a home?
+     |-- Is it commonly found in a bathroom?
+     |  |-- Is it used for personal hygiene?
+     |  |  |-- Is it a liquid or gel?
+     |  |  |  |-- Is it typically scented?
+     |  |  |  |  |-- Is it typically applied directly by hand?
+     |  |  |  |  |  |-- Is it associated with moisturizing?
+     |  |  |  |  |  |  |-- *
+     |  |  |  |  |  |   -- *
+     |  |  |  |  |   -- Does it provide odor control?
+     |  |  |  |  |     |-- *
+     |  |  |  |  |      -- *
+     |  |  |  |   -- Does it come in a container that requires pumping or squeezing to dispense?
+     |  |  |  |     |-- Is it intended for use on the face?
+     |  |  |  |     |  |-- *
+     |  |  |  |     |   -- *
+     |  |  |  |      -- Does it have a primary function related to skincare?
+     |  |  |  |        |-- *
+     |  |  |  |         -- *
+     |  |  |   -- Is it typically used for hair care?
+     |  |  |     |-- Is it typically used daily?
+     |  |  |     |  |-- Is it handheld?
+     |  |  |     |  |  |-- *
+     |  |  |     |  |   -- *
+     |  |  |     |   -- Does it usually come in a set or kit?
+     |  |  |     |     |-- *
+     |  |  |     |      -- *
+     |  |  |      -- Is it used for skincare?
+     |  |  |        |-- Is it used for application or removal of substances on the skin?
+     |  |  |        |  |-- *
+     |  |  |        |   -- *
+     |  |  |         -- Is it used to keep surfaces clean?
+     |  |  |           |-- *
+     |  |  |            -- *
+     |  |   -- Is it typically mounted or installed?
+     |  |     |-- Is it related to water flow or water management?
+     |  |     |  |-- Is it part of the plumbing system?
+     |  |     |  |  |-- Is it part of a shower setup?
+     |  |     |  |  |  |-- *
+     |  |     |  |  |   -- *
+     |  |     |  |   -- Does it directly contact water during its normal use?
+     |  |     |  |     |-- *
+     |  |     |  |      -- *
+     |  |     |   -- Does it typically hang on or attach to the wall?
+     |  |     |     |-- Is it primarily used for storage?
+     |  |     |     |  |-- *
+     |  |     |     |   -- *
+     |  |     |      -- Does it have a primary storage function?
+     |  |     |        |-- *
+     |  |     |         -- *
+     |  |      -- Does it serve a decorative purpose?
+     |  |        |-- Does it involve water in its usual function?
+     |  |        |  |-- Is it soft to the touch?
+     |  |        |  |  |-- *
+     |  |        |  |   -- *
+     |  |        |   -- Is it typically used for storage?
+     |  |        |     |-- *
+     |  |        |      -- *
+     |  |         -- Is it used for cleaning?
+     |  |           |-- Does it have a handle?
+     |  |           |  |-- *
+     |  |           |   -- *
+     |  |            -- Is it primarily used in conjunction with water?
+     |  |              |-- *
+     |  |               -- *
+     |   -- Is it typically found in a living room?
+     |     |-- Is it typically placed on the floor?
+     |     |  |-- Does it typically have legs?
+     |     |  |  |-- Is it associated with holding or displaying objects?
+     |     |  |  |  |-- Is it primarily used for storage?
+     |     |  |  |  |  |-- *
+     |     |  |  |  |   -- *
+     |     |  |  |   -- Is it typically used for seating?
+     |     |  |  |     |-- *
+     |     |  |  |      -- *
+     |     |  |   -- Is it mainly used for storage or organization?
+     |     |  |     |-- Does it have a lid or cover that can open and close?
+     |     |  |     |  |-- *
+     |     |  |     |   -- *
+     |     |  |      -- Does it usually have a fabric or cloth component?
+     |     |  |        |-- *
+     |     |  |         -- *
+     |     |   -- Is it commonly mounted on or hung from a wall?
+     |     |     |-- Is it used to display items or information?
+     |     |     |  |-- Is it primarily used for organizing items?
+     |     |     |  |  |-- *
+     |     |     |  |   -- *
+     |     |     |   -- Is it primarily decorative?
+     |     |     |     |-- *
+     |     |     |      -- *
+     |     |      -- Is it smaller than a microwave oven?
+     |     |        |-- Is it related to storage or organization?
+     |     |        |  |-- *
+     |     |        |   -- *
+     |     |         -- Is it used primarily for decoration?
+     |     |           |-- *
+     |     |            -- *
+     |      -- Is it primarily used for storage or organization?
+     |        |-- Is it often placed on top of or inside another piece of furniture?
+     |        |  |-- Is it commonly found in a bedroom?
+     |        |  |  |-- Does it store or organize clothing or accessories?
+     |        |  |  |  |-- *
+     |        |  |  |   -- *
+     |        |  |   -- Is it commonly used in an office setting?
+     |        |  |     |-- *
+     |        |  |      -- *
+     |        |   -- Does it have compartments or drawers?
+     |        |     |-- Does it typically have a place in an office or study?
+     |        |     |  |-- *
+     |        |     |   -- *
+     |        |      -- Is it commonly found in a bedroom?
+     |        |        |-- *
+     |        |         -- *
+     |         -- Is it a type of tool?
+     |           |-- Is it commonly associated with painting or decorating tasks?
+     |           |  |-- Is it a handheld tool?
+     |           |  |  |-- *
+     |           |  |   -- *
+     |           |   -- Is it generally handheld?
+     |           |     |-- *
+     |           |      -- *
+     |            -- Is it used for decoration?
+     |              |-- Is it commonly found in a bedroom?
+     |              |  |-- *
+     |              |   -- *
+     |               -- Is it related to cleaning or maintenance?
+     |                 |-- *
+     |                  -- *
+      -- Is it typically found in recreational or outdoor activities?
+        |-- Is it primarily used for relaxation or leisure?
+        |  |-- Can it be carried or held in one hand?
+        |  |  |-- Can it be used as a toy or for playing games?
+        |  |  |  |-- Is it typically used on a regular basis by children?
+        |  |  |  |  |-- Is it typically used in a competitive or team activity?
+        |  |  |  |  |  |-- *
+        |  |  |  |  |   -- *
+        |  |  |  |   -- Is it commonly used near or in water?
+        |  |  |  |     |-- *
+        |  |  |  |      -- *
+        |  |  |   -- Is it something that is typically used while stationary, rather than while moving?
+        |  |  |     |-- Does it provide protection from elements like sun, rain, or wind?
+        |  |  |     |  |-- *
+        |  |  |     |   -- *
+        |  |  |      -- Is it used in or around water?
+        |  |  |        |-- *
+        |  |  |         -- *
+        |  |   -- Is it designed to accommodate multiple people at once?
+        |  |     |-- Is it designed to be stationary rather than mobile?
+        |  |     |  |-- Is it an object that requires assembly?
+        |  |     |  |  |-- *
+        |  |     |  |   -- *
+        |  |     |   -- Does it involve or require some form of transportation to be used?
+        |  |     |     |-- *
+        |  |     |      -- *
+        |  |      -- Does it require a form of propulsion to use?
+        |  |        |-- Is it primarily used on water?
+        |  |        |  |-- *
+        |  |        |   -- *
+        |  |         -- Does it involve any form of seating or lying down?
+        |  |           |-- *
+        |  |            -- *
+        |   -- Is it typically used in a specific sport or physical activity?
+        |     |-- Is it primarily used on land rather than water or air?
+        |     |  |-- Is it used with or on the feet?
+        |     |  |  |-- Does it require a smooth surface to be used effectively?
+        |     |  |  |  |-- *
+        |     |  |  |   -- *
+        |     |  |   -- Does it involve the use of protective gear for safety?
+        |     |  |     |-- *
+        |     |  |      -- *
+        |     |   -- Does it require additional equipment or accessories to be used?
+        |     |     |-- Is it primarily used on water surfaces rather than underwater or in the air?
+        |     |     |  |-- *
+        |     |     |   -- *
+        |     |      -- Is it primarily used in water-based activities?
+        |     |        |-- *
+        |     |         -- *
+        |      -- Is it typically used in a camping setting?
+        |        |-- Does it provide shelter or coverage?
+        |        |  |-- Is it mainly composed of fabric or other flexible material?
+        |        |  |  |-- *
+        |        |  |   -- *
+        |        |   -- Is it used for navigation or safety purposes?
+        |        |     |-- *
+        |        |      -- *
+        |         -- Is it typically found in a garden or yard setting?
+        |           |-- Is it an item used for decoration or aesthetic purposes?
+        |           |  |-- *
+        |           |   -- *
+        |            -- Is it typically used directly by a person during an activity?
+        |              |-- *
+        |               -- *
+         -- Is it a type of tool or equipment?
+           |-- Is it a hand-held device?
+           |  |-- Is it commonly used in automotive repair or maintenance?
+           |  |  |-- Does it require electricity or batteries to operate?
+           |  |  |  |-- Does it have a main function related to measuring or testing?
+           |  |  |  |  |-- *
+           |  |  |  |   -- *
+           |  |  |   -- Does it have a primary function related to tightening or loosening fasteners?
+           |  |  |     |-- *
+           |  |  |      -- *
+           |  |   -- Is it often associated with construction or building?
+           |  |     |-- Is it designed to cut or shape materials?
+           |  |     |  |-- *
+           |  |     |   -- *
+           |  |      -- Is it often utilized in woodworking or carpentry?
+           |  |        |-- *
+           |  |         -- *
+           |   -- Is it powered by electricity?
+           |     |-- Is it primarily used in construction or industrial applications?
+           |     |  |-- Is it typically stationary during operation?
+           |     |  |  |-- *
+           |     |  |   -- *
+           |     |   -- Is it used in maintenance or upkeep activities?
+           |     |     |-- *
+           |     |      -- *
+           |      -- Is it used in construction or building maintenance?
+           |        |-- Is it used to lift or move heavy objects?
+           |        |  |-- *
+           |        |   -- *
+           |         -- Is it primarily used for gardening or lawn care?
+           |           |-- *
+           |            -- *
+            -- Does it have a primarily decorative function?
+              |-- Is it primarily used outdoors?
+              |  |-- Is it associated with plants or gardening?
+              |  |  |-- Is it typically placed on the ground or at ground level?
+              |  |  |  |-- *
+              |  |  |   -- *
+              |  |   -- Is it generally freestanding?
+              |  |     |-- *
+              |  |      -- *
+              |   -- Is it smaller than a football?
+              |     |-- Is it usually found in living rooms?
+              |     |  |-- *
+              |     |   -- *
+              |      -- Does it generally hang on or attach to a wall or ceiling?
+              |        |-- *
+              |         -- *
+               -- Is it primarily used in outdoor environments?
+                 |-- Is it related to weather or climate?
+                 |  |-- Does it primarily involve water?
+                 |  |  |-- *
+                 |  |   -- *
+                 |   -- Is it mobile or can it be easily moved?
+                 |     |-- *
+                 |      -- *
+                  -- Can it fit inside a typical backpack?
+                    |-- Does it have any electronic components?
+                    |  |-- *
+                    |   -- *
+                     -- Is it used in an educational or institutional setting?
+                       |-- *
+                        -- *
